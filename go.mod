@@ -1,6 +1,6 @@
 module coffee-app
 
-go 1.16
+go 1.17
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
@@ -15,3 +15,5 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20210107192922-496545a6307b // indirect
 )
+
+require github.com/pmezard/go-difflib v1.0.0 // indirect
